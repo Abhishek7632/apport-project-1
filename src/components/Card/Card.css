@@ -1,5 +1,4 @@
 .card {
-  height: 110px;
   display: flex;
   flex-direction: column;
   margin-left: 45px;
@@ -8,9 +7,8 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
   padding: 5px 5px;
-  /* padding: 2px 15px; */
   margin-bottom: 20px;
-
+  /* Removed fixed height for dynamic content */
 }
 
 .card_id {
@@ -25,13 +23,11 @@
   align-items: center;
 }
 
-
 .card_footer div {
   display: flex;
   padding: 2px 5px;
   align-items: center;
   color: grey;
-
   border-radius: 7px;
   height: 100%;
   border: 1px solid rgb(255, 255, 255);
@@ -48,6 +44,7 @@
   align-items: center;
   gap: 4px;
 }
+
 .card_footer {
   display: flex;
   align-items: center;
